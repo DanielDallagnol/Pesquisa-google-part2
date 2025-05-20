@@ -1,7 +1,7 @@
 import './App.css'
 import CriaForm from './assets/Form'
-import { Box } from '@mui/material'
-
+import { Box, Stack } from '@mui/material'
+import Button from './assets/Button'
 
 
 function App() {
@@ -25,6 +25,11 @@ function App() {
       
       
       <CriaForm/>
+
+      <Stack spacing={2} direction="row">
+        <Button label='pesquisa google'/>
+        <Button label='estou com sorte'/>
+      </Stack>
       
   </Box>
 

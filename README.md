@@ -1,55 +1,96 @@
-# React + TypeScript + Vite
+[README.md](https://github.com/user-attachments/files/21790180/README.md)
+# 🚀 Projeto React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi criado utilizando **React**, **TypeScript** e **Vite** para fornecer um ambiente rápido e moderno de desenvolvimento front-end.
 
-Currently, two official plugins are available:
+## 📋 Pré-requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Antes de começar, você precisa ter instalado na sua máquina:
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/) (versão 16 ou superior)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📦 Instalação
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Clone o repositório e instale as dependências:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+npm install
+# ou
+yarn install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ▶️ Executando o projeto
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Para rodar o projeto no modo de desenvolvimento:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+npm run dev
+# ou
+yarn dev
 ```
-# Pesquisa-google
+
+O projeto ficará disponível normalmente em:
+```
+http://localhost:5173
+```
+
+## 🛠️ Scripts Disponíveis
+
+- `dev` — Inicia o servidor de desenvolvimento
+- `build` — Gera a build de produção
+- `preview` — Pré-visualiza a build de produção
+
+## 📂 Estrutura de Pastas
+
+```
+.
+├── src
+│   ├── App.tsx        # Componente principal
+│   ├── App.css        # Estilos do App
+│   ├── index.css      # Estilos globais
+│   ├── main.tsx       # Ponto de entrada do React
+│   └── vite-env.d.ts  # Tipos do Vite/TypeScript
+├── index.html         # HTML base
+└── package.json       # Configurações do projeto
+```
+
+## 📚 Tecnologias Utilizadas
+
+- ⚛️ [React](https://reactjs.org/)
+- 📘 [TypeScript](https://www.typescriptlang.org/)
+- ⚡ [Vite](https://vitejs.dev/)
+
+
+## 📚 Sobre o Projeto
+
+Este projeto foi desenvolvido como parte de um estudo para entender melhor o uso de **componentes** no React com TypeScript.
+Durante o processo, foi criada uma **página inicial fake do Google**, com foco em:
+- Estruturação de componentes reutilizáveis
+- Estilização com CSS modular
+- Organização de arquivos e boas práticas no Vite
+
+O objetivo principal foi **aprender e praticar**, não criar uma réplica exata do Google, mas sim algo visualmente inspirado na interface original.
+
+## 🚀 Tecnologias Utilizadas
+
+- **React** com **TypeScript**
+- **Vite** para build e desenvolvimento rápido
+- **CSS** para estilização
+- **Componentização** para melhor organização do código
+
+## 🎯 Aprendizados
+- Criação e utilização de componentes React
+- Tipagem com TypeScript
+- Estrutura de pastas otimizada
+- Estilização modularizada
+
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT — sinta-se livre para usar e modificar.
+
+---
+Feito com ❤️ usando React, TypeScript e Vite.

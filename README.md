@@ -92,5 +92,4 @@ O objetivo principal foi **aprender e praticar**, não criar uma réplica exata 
 
 Este projeto está sob a licença MIT — sinta-se livre para usar e modificar.
 
----
-Feito com ❤️ usando React, TypeScript e Vite.
+
